@@ -1,0 +1,70 @@
+
+.inputSection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.profilelogo{
+    margin-left: 10px;
+    margin-right: 8px;
+    color: rgb(187, 61, 145);
+    transform: translateY(3px);
+}
+.inputSection input{
+    border: 1px solid rgb(139, 138, 138);
+    outline: none;
+    border-radius: 25px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.inputunderline{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    opacity: 0.3;
+    transform: translateY(7px);
+}
+.videoSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.videoSection p{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(59, 58, 58);
+}
+.line{
+    opacity: 0.6;
+}
+.livephotoroom,
+.livephotoroom1,
+.livephotoroom2
+{
+
+    transform: translateY(3px) translateX(15px);
+}
+.livephotoroom{
+    color: rgb(241, 43, 43);
+}
+.livephotoroom1{
+    color: rgb(79, 180, 53);
+}
+.livephotoroom2{
+    font-size: 19px;
+    color: rgb(116, 24, 119);
+}
+
+.videounderline{
+    width: 100%;
+    height: 100%;
+    border: 3px solid gray;
+    opacity: 0.3;
+    transform: translateY(7px);
+}
